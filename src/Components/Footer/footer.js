@@ -111,9 +111,11 @@ export const Email = styled.div`
         color: #333;
         letter-spacing: 1.2px;
         text-transform: uppercase;
+        margin-left: 4rem;
 
         @media (min-width: 1024px) {
-            font-size: 1.1rem
+            font-size: 1.1rem;
+            margin-left: 0;
         }
     }
 `
