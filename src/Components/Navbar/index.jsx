@@ -1,5 +1,5 @@
-import React, { useState, useContext } from 'react';
-import { Wrapper, LeftNavbar, RightNavbar,  Join, Search, Sign, Drop, Profile, DropContent } from './Navbar';
+import React, { useState } from 'react';
+import { Wrapper, LeftNavbar, RightNavbar, Search, Drop, Profile, DropContent } from './Navbar';
 import { DropdownButton, Dropdown } from 'react-bootstrap'
 import { CgProfile } from "react-icons/cg";
 

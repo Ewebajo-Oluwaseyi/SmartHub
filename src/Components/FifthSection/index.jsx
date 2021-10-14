@@ -1,6 +1,5 @@
 import React from 'react';
 import { Wrapper, Skill, Community, Image, Head, SkillContent } from './FifthSection';
-import bg1 from "../../assests/homeBg1.jpg"
 
 export default function FifthSection() {
     return (
