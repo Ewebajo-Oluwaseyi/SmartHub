@@ -124,6 +124,11 @@ export const Form = styled.div`
     min-width: 100%;
     align-items: center;
     justify-content: center;
+    margin-left: 2rem;
+
+    @media (min-width: 1024px) {
+        margin-left: 0;
+    }
     
     display {
         display: flex;
