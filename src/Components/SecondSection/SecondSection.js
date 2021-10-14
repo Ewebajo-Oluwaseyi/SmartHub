@@ -26,7 +26,7 @@ export const Read = styled.div`
     padding: 10px 15px;
     margin: 10px;
    // width: 25%;
-    a {
+   button {
         background-color: #fff;
         padding: 15px 10px 15px 10px;
 
