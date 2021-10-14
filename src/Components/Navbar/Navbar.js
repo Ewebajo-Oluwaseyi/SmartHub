@@ -159,7 +159,7 @@ export const Search = styled.div`
 
 export const Drop = styled.div`
     position: absolute;
-    right: 15px;
+    right: 8px;
     top: 50%;
     transform: translateY(-40%);
 

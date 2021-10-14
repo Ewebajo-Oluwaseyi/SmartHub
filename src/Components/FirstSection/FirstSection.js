@@ -10,7 +10,8 @@ export const Wrapper = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 90vh;
+
     @media (min-width: 1024px) {
       height: 100vh;
     }
@@ -22,9 +23,10 @@ export const Hero = styled.div`
     position: absolute; 
     top: 250px;
     left: 50%;
-    transform: translate(-50%, -20%);
+    transform: translate(-50%, -10%);
     padding: 20px;
     color: #fff;
+    z-index: 9999;
 
     @media(min-width: 1024px) {
         width: 70%;
@@ -51,7 +53,7 @@ export const Connect = styled.h1`
 `
 
 export const Button = styled.button`
-    width: 200px;
+    width: 150px;
     height: 40px;
     border-radius: 8px;
     background: #fff;
@@ -88,7 +90,7 @@ export const Button = styled.button`
 
     @media(min-width: 978px) {
       font-size: 1.1rem;
-      width: 250px;
+      width: 200px;
       height: 50px;
     }
 `

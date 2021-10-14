@@ -100,9 +100,12 @@ export const Email = styled.div`
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    padding-left: 2rem;
 
     @media (min-width: 978px) {
-        padding: 10px
+        padding: 10px;
+        width: 70%;
+        padding-left: 0;
     }
 
     h2 {

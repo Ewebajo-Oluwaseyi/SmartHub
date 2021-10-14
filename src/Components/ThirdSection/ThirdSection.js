@@ -41,6 +41,10 @@ export const Main = styled.div`
     display: flex;
     flex-direction: column;
     background: #fefeff;
+
+    @media (min-width:978px) {
+      width: 100%;
+    }
 `
 
 export const Item = styled.div`
@@ -109,6 +113,7 @@ export const Description = styled.div`
 
     @media (min-width: 500px) {
        margin-left: 4rem;
+       width: 40%;
     }
     
     h2 {

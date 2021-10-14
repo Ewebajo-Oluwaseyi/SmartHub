@@ -32,11 +32,11 @@ export const Read = styled.div`
 
         
         @media (min-width: 257px)  {
-            padding: 15px 20px 15px 20px;
+            padding: 15px 10px 15px 10px;
         }
 
         @media (min-width: 338px)  {
-            padding: 15px 60px 15px 60px;
+            padding: 15px 30px 15px 30px;
         }
       }
       

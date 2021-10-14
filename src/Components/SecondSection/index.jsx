@@ -9,7 +9,7 @@ export default function SecondSection() {
                A Message from SmartHub's CEO: Announcemet of Series
            </Message>
            <Read>
-               <a href="!#">Read it now</a>
+               <a>Read it now</a>
            </Read>
         </Wrapper>
     )
