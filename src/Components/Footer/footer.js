@@ -42,12 +42,12 @@ export const Footer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px 50px;
+    padding: 20px 10px;
     width: 100%;
 
   @media (min-width: 678px) {
     flex-direction: row;
-    padding: 50px 100px;
+    padding: 50px 50px;
   }
 `
 
@@ -63,6 +63,12 @@ export const SectionItem = styled.div`
     flex-direction: column;
     color: #616161;
     width: 100%;
+    margin-left: 2rem;
+    line-height: 30px;
+
+    @media (min-width: 1024px) {
+        margin-left: 0;
+    }
     h2 {
         font-size: .9rem;
         font-weight: 700;
@@ -72,7 +78,7 @@ export const SectionItem = styled.div`
         width: 100%
 
         @media (min-width: 1024px) {
-            font-size: 1.1rem
+            font-size: 1.1rem;
         }
     }
 
@@ -92,6 +98,8 @@ export const SectionItem = styled.div`
 export const Email = styled.div`
     padding: 10px;
     width: 100%;
+    align-items: center;
+    justify-content: space-between;
 
     @media (min-width: 978px) {
         padding: 10px

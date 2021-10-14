@@ -55,6 +55,10 @@ export const Item = styled.div`
     &:nth-child(2) {
         flex-direction: column-reverse;
     }
+    &:nth-child(3) {
+        border-bottom: none;
+
+    }
 
     @media (min-width:978px) {
         flex-direction: row;

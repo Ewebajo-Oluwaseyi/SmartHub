@@ -161,7 +161,7 @@ export const Drop = styled.div`
     position: absolute;
     right: 15px;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
 
     @media only screen and (min-width: 1024px) {
        display: none;
@@ -226,18 +226,4 @@ export const Profile = styled.div`
          font-size: 30px;
      }
 
-`
-export const Join = styled.div`
-    background-color: #ffaf30;
-    color: #1f2c46;
-    padding: 15px 40px;
-
-    &:hover {
-     color: #ffaf30;
-     background-color: #1f2c46;
-    }
-`
-
-export const Sign= styled.div`
-    font-weight: 300;
 `
