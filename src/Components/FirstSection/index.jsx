@@ -7,8 +7,8 @@ export default function FirstSection() {
         <Wrapper>
             <ParticleBg/>
             <Hero>
-                <Connect>Connect to talents and developers for your startup, companies or Enterpreneurs</Connect>
-                <Button><span></span>Hire</Button>
+                <Connect>Connect to talents for your startup and companies</Connect>
+                <Button><span></span>Find Them</Button>
             </Hero>
         </Wrapper>
     )

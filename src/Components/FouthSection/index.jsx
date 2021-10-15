@@ -11,7 +11,7 @@ export default function ThirdSection() {
             <WrapperContent>
               <InnerWrapper>
                <Testimonies>
-                 <p>“Every one of the Andela engineers I have worked with has been stellar. They are great
+                 <p>“Every one of the SmartHub engineers I have worked with has been stellar. They are great
                   engineers,
                  really driven to deliver, and they’re just great people.”</p>
                 <Stars>
@@ -31,9 +31,8 @@ export default function ThirdSection() {
              </InnerWrapper>
               <InnerWrapper>
                 <Testimonies>
-                  <p>“Every one of the Andela engineers I have worked with has been stellar. They are great
-                    engineers,
-                    really driven to deliver, and they’re just great people.”</p>
+                  <p>“SmartHub engineers are well vetted enginners. I have no regreat hiring from them,
+                    They are always ready to deliver a good job.”</p>
                 <Stars>
                   <li><i class="fas fa-star"></i></li>
                   <li><i class="fas fa-star"></i></li>
@@ -45,7 +44,7 @@ export default function ThirdSection() {
                 <Image>
                   <img alt="" src="image/2.jpg" width="50px;"/>
                 </Image>
-                  <div class="r-div quote">Michael Archibald</div>
+                  <div class="r-div quote">Jennifer Smith</div>
                 </div>
                </Testimonies>
               </InnerWrapper>

@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
     top: 0;
     z-index: 2000;
     transition: all .6s ease;
-    border-bottom: ${props => props.scroll ? "5px solid rgba(0, 0, 0, .1)" : ""};
+    bottom: ${props => props.scroll ? "0" : ""};
     background-color: ${props => props.scroll ? "rgba(255, 255, 255, .5)" : ""};
     backdrop-filter: ${props => props.scroll ? "blur(20px)" : ""};
     box-shadow: ${props => props.scroll ? "3px 0 10px rgba(0, 0, 0, .3)" : ""};
@@ -52,7 +52,7 @@ export const LeftNavbar = styled.div`
 
 export const RightNavbar = styled.div`
     display: none;
-    position: absolute !important;
+    position: absolute;
     right: 50px;
     top: 50%;
     transform: translateY(-40%);

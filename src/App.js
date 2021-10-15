@@ -1,11 +1,12 @@
-import React, { Suspense } from 'react';
-import { Home } from './Pages'
+import React from 'react';
+import  Home  from './Pages/Home'
+import AuthContextProvider  from "./store/AuthContext"
 
 function App() {
   return (
-    <Suspense fallback={<p>Loading...</p>}>
-      <Home/>
-    </Suspense>
+      <AuthContextProvider>
+        <Home/>
+      </AuthContextProvider>
   );
 }
 

@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
     background-position: center;
     background-attachment: fixed;
     
-    &::before {
+    &:before {
         content: '';
         position: absolute;
         left: 0;

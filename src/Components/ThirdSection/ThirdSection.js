@@ -137,7 +137,7 @@ export const Description = styled.div`
     a {
         text-transform: uppercase;
         margin-top: 2rem;
-        color: #1f2c46;
+        color: #ffaf30;
         font-weight: 500;
         margin-bottom: 1rem;
     }

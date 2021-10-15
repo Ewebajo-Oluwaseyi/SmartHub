@@ -6,3 +6,5 @@ export { default as FouthSection } from './FouthSection';
 export { default as FifthSection } from './FifthSection';
 export { default as SixthSection } from './SixthSection';
 export { default as Footer } from './Footer';
+export { default as Sign } from './SignUp';
+export { default as Spinner } from './Spinner';

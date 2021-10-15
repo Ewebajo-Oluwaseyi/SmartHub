@@ -10,10 +10,10 @@ export const Wrapper = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 80vh;
 
     @media (min-width: 1024px) {
-      height: 100vh;
+      height: 85vh;
     }
 `
 
@@ -42,6 +42,7 @@ export const Connect = styled.h1`
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 2px;
+  text-transform: capitalize;
 
   @media(min-width: 978px) {
     font-size: 2.5rem;
@@ -95,30 +96,3 @@ export const Button = styled.button`
     }
 `
 
-export const CarouselRow = styled.div`
-  display: block;
-  max-height: 100% !important;
-  min-height: 85vh;
-  max-width: 100vw;
-  position: relative;
-  top: 0;
-  right: 0;
-  z-index: -1;
-
-  @media (min-width: 1024px) {
-    max-width: 100% !important;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-    max-height: 100vh;
-    display: block;
-    margin-top: 0;
-
-    @media (min-width: 1024px) {
-        max-width: 100%;
-    }
-   }
-  
-`

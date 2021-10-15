@@ -1,17 +1,30 @@
-import React from 'react';
-import { Navbar, FirstSection, SecondSection, ThirdSection, FouthSection, FifthSection, SixthSection, Footer } from '../Components'
+import React, { Suspense } from 'react';
+import { Navbar, FirstSection, SecondSection, ThirdSection, FouthSection, FifthSection, SixthSection, Footer, Sign, Spinner} from '../Components'
+import { Switch, Route } from 'react-router-dom';
 
-export default function Home() {
+function Home() {
     return (
       <>
         <Navbar/>
-          <FirstSection/>
-          <SecondSection/>
-          <ThirdSection/>
-          <FouthSection/>
-          <FifthSection/>
-          <SixthSection/>
+          <Switch>
+            <Route
+              path="/"
+              render={() => (            
+              <Suspense fallback={<Spinner/>}>
+                <FirstSection/>
+                <SecondSection/>
+                <ThirdSection/>
+                <FouthSection/>
+                <FifthSection/>
+                <SixthSection/> 
+              </Suspense>
+              )}
+            /> 
+          </Switch>
+          <Sign/>
         <Footer/>
       </>
     )
 }
+
+export default Home;

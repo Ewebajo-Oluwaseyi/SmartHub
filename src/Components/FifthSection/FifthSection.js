@@ -70,5 +70,5 @@ export const Image = styled.div`
 export const Head= styled.div`
     font-size: 24px;
     font-weight: 400;
-    color: #1f2c46;
+    color: #ffaf30;
 `

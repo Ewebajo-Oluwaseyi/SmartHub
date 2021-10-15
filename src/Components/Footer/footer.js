@@ -12,6 +12,9 @@ export const Wrapper = styled.div`
     * {
         box-sizing: border-box;
     }
+    @media (min-width: 678px) {
+        padding: 10px 20px;
+      }
 
     footer {
         font-weight: 700;
@@ -57,6 +60,10 @@ export const Section = styled.div`
   width: 100%;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media (min-width: 1024px) {
+    justify-content: space-around;
+}
 `
 export const SectionItem = styled.div`
     display: flex;

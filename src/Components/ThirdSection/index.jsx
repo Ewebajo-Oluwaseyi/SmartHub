@@ -14,9 +14,9 @@ export default function ThirdSection() {
                         <img src={bg1} alt=""/>
                     </Image>
                     <Description>
-                        <h2>Assessing Engineers</h2>
-                        <p>Do not worry about spending time interviewing, put more time building
-                            connecting with engineers we've already assessed.
+                        <h2>Looking for Engineers..?</h2>
+                        <p>Do not worry about spending time interviewing, put more time building and
+                            connecting with engineers we've already assessed at SmartHub.
                         </p>
                         <a href="!#">Learn More...</a>
                     </Description>
