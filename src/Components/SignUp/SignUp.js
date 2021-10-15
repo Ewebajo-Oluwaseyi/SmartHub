@@ -50,3 +50,21 @@ export const Head = styled.h2`
         font-size: 30px;
     }
 `
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 500px) {
+        flex-direction: row;
+    }
+`
+
+export const Col = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+    &:nth-child(1) {
+        margin-bottom: 1rem;
+    }
+`

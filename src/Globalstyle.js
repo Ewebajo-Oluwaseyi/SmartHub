@@ -2,11 +2,12 @@ import { createGlobalStyle } from 'styled-components';
 
 // eslint-disable-next-line import/prefer-default-export
 export const GlobalStyle = createGlobalStyle`
+  
     body {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
         font-family: lato, sans-serif;
+        overflow-x:hidden;
     }
 
     a {

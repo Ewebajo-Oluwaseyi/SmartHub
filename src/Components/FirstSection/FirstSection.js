@@ -11,7 +11,6 @@ export const Wrapper = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-
     @media (min-width: 1024px) {
       height: 85vh;
     }

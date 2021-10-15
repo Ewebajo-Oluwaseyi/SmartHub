@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Modal from "../Modal/index";
-import {User , Button,Head } from './SignUp'
-import { Form, Col } from "react-bootstrap";
+import {User , Button,Head, Row, Col } from './SignUp'
+import { Form } from "react-bootstrap";
 import {AuthContext} from "../../store/AuthContext"
 
 
@@ -14,39 +14,54 @@ const Signup = () => {
         <>
             <Form>
                 <Head>Join SmartHub</Head>
-                <Form.Row className="mb-3">
-                    <Form.Group as={Col} controlId="formFirstName">
-                        <Form.Label>First Name:</Form.Label>
-                        <Form.Control type="text" placeholder="Enter first name"/>
+                <Row>
+                    <Form.Group controlId="formFirstName">
+                        <Col>
+                          <Form.Label>First Name:</Form.Label>
+                          <Form.Control type="text" placeholder="Enter first name"/>
+                        </Col>
                     </Form.Group>
 
-                    <Form.Group as={Col} controlId="formLastName">
-                        <Form.Label>Last Name:</Form.Label>
-                        <Form.Control type="text" placeholder="Enter last name"/>
+                    <Form.Group controlId="formLastName">
+                        <Col>
+                          <Form.Label>Last Name:</Form.Label>
+                          <Form.Control type="text" placeholder="Enter last name"/>
+                        </Col>  
                     </Form.Group>
-                </Form.Row>
+                </Row>
 
-                <Form.Group as={Col} controlId="formGridEmail">
-                    <Form.Label>Email:</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email"/>
-                </Form.Group>
-                <Form.Row>
-                    <Form.Group as={Col} controlId="formGridPassword1">
-                        <Form.Label>Enter Password:</Form.Label>
-                        <Form.Control type="password" placeholder="Enter password"/>
+                <Row>
+                  <Form.Group controlId="formGridEmail">
+                      <Col>     
+                       <Form.Label>Email:</Form.Label>
+                       <Form.Control type="email" placeholder="Enter email"/>
+                      </Col>
+                  </Form.Group>
+                </Row>
+                
+                <Row>
+                    <Form.Group controlId="formGridPassword1">
+                        <Col>
+                          <Form.Label>Password:</Form.Label>
+                          <Form.Control type="password" placeholder="Enter password"/>
+                        </Col>
                     </Form.Group>
 
-                    <Form.Group as={Col} controlId="formGridPassword1">
-                        <Form.Label>Confirm Password:</Form.Label>
-                        <Form.Control type="password" placeholder="Conform password"/>
+                    <Form.Group controlId="formGridPassword1">
+                        <Col>
+                          <Form.Label>Confirm Password:</Form.Label>
+                          <Form.Control type="password" placeholder="Conform password"/>
+                        </Col>
                     </Form.Group>
-                </Form.Row>
-                <Form.Row>
-                    <Form.Group as={Col} controlId="formGridZip">
-                        <Form.Label>Telephone:</Form.Label>
-                        <Form.Control type="tel" placeholder="Enter phone no"/>
+                </Row>
+                <Row>
+                    <Form.Group controlId="formGridZip">
+                        <Col>
+                          <Form.Label>Telephone:</Form.Label>
+                          <Form.Control type="tel" placeholder="Enter phone no"/>
+                        </Col>
                     </Form.Group>
-                </Form.Row>
+                </Row>
                 <Button value="submit" type="submit">
                     Sign Up
                 </Button>
@@ -62,18 +77,23 @@ const Signup = () => {
     ) : (
         <>
             <Form>
-                <h1>Sign In</h1>
-                <Form.Group controlId="formGridEmail">
-                    <Form.Label>Email:</Form.Label>
-                    <Form.Control type="email" placeholder="Email"/>
-                </Form.Group>
-                <Form.Row>
-                    <Form.Group as={Col} controlId="formGridPassword1">
-                        <Form.Label>Enter Password:</Form.Label>
-                        <Form.Control type="password" placeholder="Enter password"/>
+                <Head>Sign In</Head>
+                <Row>
+                  <Form.Group controlId="formGridEmail">
+                      <Col>     
+                       <Form.Label>Email:</Form.Label>
+                       <Form.Control type="email" placeholder="Enter email"/>
+                      </Col>
+                  </Form.Group>
+
+                  <Form.Group controlId="formGridPassword1">
+                        <Col>
+                          <Form.Label>Password:</Form.Label>
+                          <Form.Control type="password" placeholder="Enter password"/>
+                        </Col>
                     </Form.Group>
-                </Form.Row>
-    
+
+                </Row>
                 <Button type="submit">
                     sign in
                 </Button>

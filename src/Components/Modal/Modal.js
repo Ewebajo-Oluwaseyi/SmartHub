@@ -28,7 +28,7 @@ export const Wrapper= styled.div`
     max-height: fit-content;
     min-height: 00px;
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     padding-bottom: 50px;
     border-radius: 15px;
     z-index: 5000;
@@ -38,6 +38,7 @@ export const Wrapper= styled.div`
     }
 
     @media (min-width: 678px) {
+      width: 600px;
       max-width: 70vw;
       padding: 50px;
     }
@@ -51,18 +52,20 @@ export const Wrapper= styled.div`
       }
   
       > form {
+          width: 100%;
         @media (min-width: 978px) {
           input,
           .form-control {
-              margin-top: 10px;
+            margin-top: 10px;
             height: 30px;
           }
         }
         input {
             padding: 5px;
             border-radius: 10px;
-            margin-left: 10px;
             border: 1px solid #000;
+            width: 50%;
+            
         }
         .form-row {
           margin-top: 20px;
